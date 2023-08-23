@@ -59,7 +59,7 @@ print(f'The computer has chosen {comp_choice}')
 if users_choice_number == 1 and comp_choice_number == 2:
     print('Paper wins =>')
     result = 'pAPER'
-if users_choice_number == 2 and comp_choice_number == 1:
+elif users_choice_number == 2 and comp_choice_number == 1:
     print('Paper wins =>')
     result = 'Paper'
 
@@ -71,13 +71,13 @@ if users_choice_number == comp_choice_number:
 if users_choice_number == 1 and comp_choice_number == 3:
     print('Rock wins =>')
     result = 'Rock'
-if users_choice_number == 3 and comp_choice_number == 1:
+elif users_choice_number == 3 and comp_choice_number == 1:
     print('Rock wins =>')
     result = 'rOCK'
 
 if users_choice_number == 2 and comp_choice_number == 3:
     print('Scissors win =>')
     result = 'sCISSORS'
-if users_choice_number == 3 and comp_choice_number == 2:
+elif users_choice_number == 3 and comp_choice_number == 2:
     print('Scissors win =>')
     result = 'Scissors'
